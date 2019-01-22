@@ -8,10 +8,10 @@
     </feature>
     <name>MarcaJa</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Aplica��o de demosntra��o para marca��o de comprimisos.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="supporte@r1ti.com" href="https://r1tiapp.com.br/">
+        R1ti
     </author>
     <content src="index.html" />
     <access origin="*" />

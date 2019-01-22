@@ -1,6 +1,6 @@
 {
-  "name": "My App",
-  "description": "Description of your app",
+  "name": "MarcaJa",
+  "description": "Aplicativo de demosntracao para marcar consultas e compromissos",
   "launch_path": "/index.html",
   "icons": {
     "128": "/img/logo.png"

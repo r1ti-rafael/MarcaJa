@@ -2,10 +2,10 @@
 <widget id="com.r1ti.marcaja" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>MarcaJa</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Aplicação de demosntração para marcação de comprimisos.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="supporte@r1ti.com" href="https://r1tiapp.com.br/">
+        R1ti
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
