@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.r1ti.marcaja" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.r1ti.marcaja" 
+	versionCode = "2"
+	version="1.0.2"
+	xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:gap="http://phonegap.com/ns/1.0">
     <name>MarcaJa</name>
     <description>
         Aplicação de demosntração para marcação de comprimisos.
@@ -31,6 +35,9 @@
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
     <platform name="android">
+   	<allow-intent href="market:*" /> 
+        <preference name="android-minSdkVersion" value="16" /> 
+        <preference name="android-targetSdkVersion" value="26" /> 
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
         <icon density="hdpi" src="www/res/icon/android/drawable-hdpi-icon.png" />
